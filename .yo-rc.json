@@ -1,0 +1,13 @@
+{
+  "generator-kraken": {
+    "taskModule": "grunt",
+    "description": "ITV app",
+    "author": "mike",
+    "templateModule": "makara",
+    "i18n": false,
+    "componentPackager": "bower",
+    "cssModule": "sass",
+    "jsModule": "browserify",
+    "useJson": null
+  }
+}
