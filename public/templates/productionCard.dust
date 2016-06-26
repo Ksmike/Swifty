@@ -1,0 +1,15 @@
+{#mostPopular}
+<div class="grid-item" data-id="{productionId}">
+	<div class="grid-contain">
+		<img class="grid-image" src="{_links.image.href}">
+		<div class="product-designer">
+			<span class="channel" data-channel={channel}>{channel}</span> - {programmeTitle} - {duration}
+			<p>{synopsis}</p>
+			{?numberOfEpisodes}
+				<span class ="playlist"><a href="{_links.playlist.href}">{moreEpisodesLabel}</a></span>
+			{/numberOfEpisodes}
+			<span class="daysLeft">{availabilityEnd.displayFormat}</span>
+		</div>
+	</div>
+</div>
+{/mostPopular}

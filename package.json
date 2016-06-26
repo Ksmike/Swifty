@@ -5,6 +5,7 @@
   "author": "mike",
   "main": "index.js",
   "scripts": {
+    "start": "npm run build --force && node server.js",
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test"
@@ -17,7 +18,10 @@
     "construx-sass": "^1.0.0",
     "express": "^4.12.2",
     "kraken-js": "^1.0.3",
-    "makara": "^2.0.3"
+    "makara": "^2.0.3",
+    "request": "^2.72.0",
+    "require": "^2.4.20",
+    "sinon": "^1.17.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
